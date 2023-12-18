@@ -1,6 +1,13 @@
-* {
-    box-sizing: border-box;
-  }
+
+
+
+#container {
+
+  display: flex;
+  justify-content: center;
+  
+}
+
 
 #topbutton{
 
@@ -17,13 +24,17 @@
   }
   
 
-#container{
+#grid{
 
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    height: 700px;
+    width: 700px;
+    border: 5px black;
+    border: 2px solid #000000;
     
-    padding-left: 500px;
-    padding-right: 500px;
+   
    
 
   
@@ -46,8 +57,7 @@
 .grid-item{
     width: 16px;
     height: 16px;
-    border: 1px solid black;
-    background-color: white;
+    
     
       
 }
